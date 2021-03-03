@@ -66,3 +66,4 @@ Once your dev run has completed, you have successfully deployed your applicaiton
 ## Resources and Documentation
 
 1. Chris Bortel (TA) helped me debug my `server.js` and `index.js` files
+1. Kristian Esvelt (TA) helped me debug `logger.test.js` file
