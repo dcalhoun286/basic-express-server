@@ -1,14 +1,5 @@
 'use strict';
 const { describe, it, expect } = require('@jest/globals');
-/*
-Resources:
-
-https://stackoverflow.com/questions/60722281/testing-an-express-middleware-with-jest
-
-https://glebbahmutov.com/blog/how-to-correctly-unit-test-express-server/
-
-https://jestjs.io/docs/en/setup-teardown
-*/
 
 const supertest = require('supertest');
 const { server } = require('../src/server.js');
