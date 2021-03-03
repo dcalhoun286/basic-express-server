@@ -67,3 +67,5 @@ Once your dev run has completed, you have successfully deployed your applicaiton
 
 1. Chris Bortel (TA) helped me debug my `server.js` and `index.js` files
 1. Kristian Esvelt (TA) helped me debug `logger.test.js` file
+1. Testing an Express middleware with `jest` - [Stack Overflow](https://stackoverflow.com/questions/60722281/testing-an-express-middleware-with-jest)
+1. Using the `jest` object - [jesjs.io](https://jestjs.io/docs/en/jest-object)
