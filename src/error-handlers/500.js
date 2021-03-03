@@ -6,4 +6,6 @@ module.exports = (err, req, res, next) => {
     status: 500,
     message: error,
   };
+
+  res.status(500).send(errObj);
 };
