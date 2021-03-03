@@ -4,6 +4,7 @@
 
 - [Pull request #1](https://github.com/dcalhoun286/basic-express-server/pull/1)
 - [Pull request #2](https://github.com/dcalhoun286/basic-express-server/pull/2)
+- [Pull request #3](https://github.com/dcalhoun286/basic-express-server/pull/3)
 - [Deployed site](https://dc-basic-express-server.herokuapp.com/)
 - [GitHub Actions](https://github.com/dcalhoun286/server-deployment-practice/actions)
 
@@ -70,3 +71,5 @@ Once your dev run has completed, you have successfully deployed your applicaiton
 1. Kristian Esvelt (TA) helped me debug `logger.test.js` file
 1. Testing an Express middleware with `jest` - [Stack Overflow](https://stackoverflow.com/questions/60722281/testing-an-express-middleware-with-jest)
 1. Using the `jest` object - [jesjs.io](https://jestjs.io/docs/en/jest-object)
+1. Below is a UML of my application (created at [https://app.diagrams.net](https://app.diagrams.net))
+  1. ![Diagram](assets/images/lab02-diagram.png)
