@@ -3,7 +3,8 @@
 ## Links
 
 - [Pull request #1](https://github.com/dcalhoun286/basic-express-server/pull/1)
-- [Deployed site - not deployed yet](https://dc-basic-express-server.herokuapp.com/)
+- [Pull request #2](https://github.com/dcalhoun286/basic-express-server/pull/2)
+- [Deployed site](https://dc-basic-express-server.herokuapp.com/)
 - [GitHub Actions](https://github.com/dcalhoun286/server-deployment-practice/actions)
 
 ## The Setup
@@ -66,3 +67,6 @@ Once your dev run has completed, you have successfully deployed your applicaiton
 ## Resources and Documentation
 
 1. Chris Bortel (TA) helped me debug my `server.js` and `index.js` files
+1. Kristian Esvelt (TA) helped me debug `logger.test.js` file
+1. Testing an Express middleware with `jest` - [Stack Overflow](https://stackoverflow.com/questions/60722281/testing-an-express-middleware-with-jest)
+1. Using the `jest` object - [jesjs.io](https://jestjs.io/docs/en/jest-object)

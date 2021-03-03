@@ -14,16 +14,18 @@ const serverErrors = require('./error-handlers/500.js');
 
 // global: app-level middleware
 app.use(express.json());
-app.use(logger);
 
 // routes
 
-app.get('/', (req, res) => {
+app.get('/', logger, (req, res) => {
   res.send('home page');
 });
 
-app.get('/person', (req, res) => {
-  res.send(`hello ${req.query.name}`);
+app.get('/person', logger, validator, (req, res) => {
+  if (req.query.name) {
+    console.log('REQ QUERY: ', req.query);
+    res.send(`hello ${req.query.name}`);
+  }
 });
 
 // error handler methods

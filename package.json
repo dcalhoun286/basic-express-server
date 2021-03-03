@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
-    "start": "node index.js"
+    "test": "jest --verbose --coverage",
+    "start": "node index.js",
+    "test-watch":"jest --watchAll --verbose --coverage"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/dcalhoun286/basic-express-server#readme",
   "dependencies": {
+    "@jest/globals": "^26.6.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jest": "^26.6.3",
