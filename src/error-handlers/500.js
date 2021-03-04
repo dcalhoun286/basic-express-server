@@ -1,10 +1,11 @@
 'use strict';
 
 module.exports = (err, req, res, next) => {
-  const error = err.message ? err.message : err;
+
+  console.error('(STATUS 500 ERROR)', err);
   const errObj = {
     status: 500,
-    message: error,
+    message: 'something broke',
   };
 
   res.status(500).send(errObj);
